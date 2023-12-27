@@ -1,0 +1,31 @@
+.setting-icones-Manageproductmain {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    bottom: 28px;
+}
+
+.fistline-Manageproductmain {
+    border-bottom: 1px solid #ccc;
+    padding-top: 20px;
+    padding-left: 25px;
+    height: 65px;
+}
+
+.firstdivicone-Manageproductmain {
+    display: flex;
+    align-items: center;
+}
+
+.setting-icones-Manageproductmain img {
+    width: 38px;
+    margin-right: 8px;
+}
+
+@media screen and (max-width: 600px) {
+    .fistline-Manageproductmain {
+        position: relative;
+        right: 13px;
+    }
+
+}

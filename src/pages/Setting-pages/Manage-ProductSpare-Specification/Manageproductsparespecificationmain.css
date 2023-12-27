@@ -1,0 +1,31 @@
+.setting-icones-Manageproductsparespecificationmain {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    bottom: 28px;
+}
+
+.fistline-Manageproductsparespecificationmain {
+    border-bottom: 1px solid #ccc;
+    padding-top: 20px;
+    padding-left: 25px;
+    height: 65px;
+}
+
+.firstdivicone-Manageproductsparespecificationmain {
+    display: flex;
+    align-items: center;
+}
+
+.setting-icones-Manageproductsparespecificationmain img {
+    width: 38px;
+    margin-right: 8px;
+}
+
+@media screen and (max-width: 600px) {
+    .fistline-Manageproductsparespecificationmain {
+        position: relative;
+        right: 13px;
+    }
+
+}

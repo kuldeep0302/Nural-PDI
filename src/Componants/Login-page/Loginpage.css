@@ -1,0 +1,139 @@
+/* Base styles for all screen sizes */
+.container-login {
+    background-color: #EFF3FE;
+    height: 100vh;
+}
+
+.n-service-login {
+    text-align: center;
+}
+
+.form-loginpagemain {
+    display: flex;
+    flex-wrap: wrap;
+    /* Allow flex items to wrap to the next row */
+    justify-content: space-around;
+    /* Center the items horizontally */
+}
+
+.form-nural-service {
+    background-color: white;
+    border-radius: 25px;
+}
+
+/* CSS for the entire form container */
+.formfirst-loginpage {
+    max-width: 400px;
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-top: 10vh;
+    width: calc(100% - 40px);
+    /* Adjusted width for responsiveness */
+    max-height: 80vh;
+    overflow-y: auto;
+}
+
+/* CSS for the form header */
+.l-y-a {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* CSS for form inputs and labels */
+.form-group {
+    margin-bottom: 15px;
+}
+
+.text-lable {
+    font-weight: bold;
+}
+
+.text-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+/* CSS for the password toggle icon */
+.toggle-password {
+    cursor: pointer;
+}
+
+/* CSS for the Remember me checkbox and Forgot password link */
+.r-f {
+    display: flex;
+    flex-wrap: wrap;
+    /* Allow flex items to wrap */
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.checkbox {
+    margin-right: 5px;
+}
+
+/* CSS for the Login button */
+.button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    width: 100%;
+}
+
+/* CSS for the "Create an account" link */
+.login-here {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #007bff;
+}
+
+.login-here:hover {
+    text-decoration: underline;
+    color: #0056b3;
+}
+
+/* Adjustments for the side image */
+.powerdby {
+    width: 25%;
+}
+
+.side-image-login {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.side-image-first {
+    width: 100%;
+}
+
+/* Media query for screens smaller than 768px */
+@media (max-width: 768px) {
+    .formfirst-loginpage {
+        width: calc(100% - 20px);
+        margin: 10px;
+    }
+
+    .side-image-login {
+        width: 100%;
+    }
+
+    .powerdby {
+        margin-left: 151px;
+    }
+}

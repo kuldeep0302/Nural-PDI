@@ -1,0 +1,97 @@
+.container-Fp {
+  background-color: #eff3fe;
+  height: 100vh;
+}
+
+.n-service-Fp {
+  text-align: center;
+}
+
+.main-fp {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.form-Fp {
+  max-width: 400px;
+  margin: 20px;
+  padding: 20px;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  margin-top: 10vh;
+  width: calc(100% - 40px);
+  /* Adjusted width for responsiveness */
+  max-height: 70vh;
+  overflow-y: auto;
+}
+
+.l-y-a {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* CSS for form inputs and labels */
+.form-group {
+  margin-bottom: 15px;
+}
+
+.text-lable {
+  font-weight: bold;
+}
+
+.text-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.Capaccount-Fp {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #007bff;
+}
+
+.Capaccount-Fp:hover {
+  text-decoration: underline;
+  color: #0056b3;
+}
+
+.side-image-Fp {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+.side-image-first {
+  width: 100%;
+}
+
+.powerdby {
+  width: 25%;
+}
+
+@media (max-width: 768px) {
+  .powerdby {
+    margin-left: 53px;
+  }
+}

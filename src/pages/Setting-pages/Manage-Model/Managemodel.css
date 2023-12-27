@@ -1,0 +1,79 @@
+.autocompleteform-Managemodel {
+    background-color: #EFF3FE;
+    margin: 10px;
+    border-radius: 5px;
+    height: 40vh;
+}
+
+.fistline-Managemodel {
+    border-bottom: 1px solid #ccc;
+    padding-top: 20px;
+    padding-left: 25px;
+    height: 60px;
+}
+
+.name2-Managemodel {
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+.line-Managemodel {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.textinput-Managemodel {
+    width: 20%;
+}
+
+.button-Managemodel {
+    display: flex;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+
+.CANCEL-Managemodel {
+    width: 10rem;
+    text-align: center;
+    border-radius: 7px;
+    background-color: #32499F;
+    color: white;
+    height: 5vh;
+}
+
+.Save-Managemodel {
+    width: 10rem;
+    text-align: center;
+    border-radius: 7px;
+    background-color: #32499F;
+    color: white;
+    height: 5vh;
+    margin-left: 3px;
+}
+
+@media screen and (max-width: 600px) {
+
+    .autocompleteform-Managemodel {
+        height: 65vh;
+    }
+
+    .line-Managemodel {
+        flex-direction: column;
+        display: flex;
+    }
+
+    .textinput-Managemodel {
+        width: 80%;
+        align-self: center;
+        margin-top: 10px;
+    }
+
+    .button-Managemodel {
+        display: flex;
+        margin-top: 20px;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}

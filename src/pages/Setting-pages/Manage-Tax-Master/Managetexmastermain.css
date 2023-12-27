@@ -1,0 +1,31 @@
+.setting-icones-Managetexmastermain {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    bottom: 28px;
+}
+
+.fistline-Managetexmastermain {
+    border-bottom: 1px solid #ccc;
+    padding-top: 20px;
+    padding-left: 25px;
+    height: 65px;
+}
+
+.firstdivicone-Managetexmastermain {
+    display: flex;
+    align-items: center;
+}
+
+.setting-icones-Managetexmastermain img {
+    width: 38px;
+    margin-right: 8px;
+}
+
+@media screen and (max-width: 600px) {
+    .fistline-Managetexmastermain {
+        position: relative;
+        right: 13px;
+    }
+
+}

@@ -1,0 +1,79 @@
+.autocompleteform-Manageproductcatgeory {
+    background-color: #EFF3FE;
+    margin: 10px;
+    border-radius: 5px;
+    height: 40vh;
+}
+
+.fistline-Manageproductcatgeory {
+    border-bottom: 1px solid #ccc;
+    padding-top: 20px;
+    padding-left: 25px;
+    height: 60px;
+}
+
+.name2-Manageproductcatgeory {
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+.line-Manageproductcatgeory {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.textinput-Manageproductcatgeory {
+    width: 20%;
+}
+
+.button-MManageproductcatgeory {
+    display: flex;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+
+.CANCEL-Manageproductcatgeory {
+    width: 10rem;
+    text-align: center;
+    border-radius: 7px;
+    background-color: #32499F;
+    color: white;
+    height: 5vh;
+}
+
+.Save-Manageproductcatgeory {
+    width: 10rem;
+    text-align: center;
+    border-radius: 7px;
+    background-color: #32499F;
+    color: white;
+    height: 5vh;
+    margin-left: 3px;
+}
+
+@media screen and (max-width: 600px) {
+
+    .autocompleteform-Manageproductcatgeory {
+        height: 65vh;
+    }
+
+    .line-Manageproductcatgeory {
+        flex-direction: column;
+        display: flex;
+    }
+
+    .textinput-Manageproductcatgeory {
+        width: 80%;
+        align-self: center;
+        margin-top: 10px;
+    }
+
+    .button-Manageproductcatgeory {
+        display: flex;
+        margin-top: 20px;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}

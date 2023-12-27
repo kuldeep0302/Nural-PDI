@@ -1,0 +1,31 @@
+.setting-icones-Manageregionmain {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    bottom: 28px;
+}
+
+.fistline-Manageregionmain {
+    border-bottom: 1px solid #ccc;
+    padding-top: 20px;
+    padding-left: 25px;
+    height: 65px;
+}
+
+.firstdivicone-Manageregionmain {
+    display: flex;
+    align-items: center;
+}
+
+.setting-icones-Manageregionmain img {
+    width: 38px;
+    margin-right: 8px;
+}
+
+@media screen and (max-width: 600px) {
+    .fistline-Manageregionmain {
+        position: relative;
+        right: 13px;
+    }
+
+}

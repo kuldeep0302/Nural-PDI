@@ -1,0 +1,79 @@
+.autocompleteform-managezone {
+    background-color: #EFF3FE;
+    margin: 10px;
+    border-radius: 5px;
+    height: 40vh;
+}
+
+.fistline-managezone {
+    border-bottom: 1px solid #ccc;
+    padding-top: 20px;
+    padding-left: 25px;
+    height: 60px;
+}
+
+.name2-managezone {
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+.line-managezone {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.textinput-managezone {
+    width: 20%;
+}
+
+.button-managezone {
+    display: flex;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+
+.CANCEL-managezone {
+    width: 10rem;
+    text-align: center;
+    border-radius: 7px;
+    background-color: #32499F;
+    color: white;
+    height: 5vh;
+}
+
+.Save-managezone {
+    width: 10rem;
+    text-align: center;
+    border-radius: 7px;
+    background-color: #32499F;
+    color: white;
+    height: 5vh;
+    margin-left: 3px;
+}
+
+@media screen and (max-width: 600px) {
+
+    .autocompleteform-managezone {
+        height: 50vh;
+    }
+
+    .line-managezone {
+        flex-direction: column;
+        display: flex;
+    }
+
+    .textinput-managezone {
+        width: 80%;
+        align-self: center;
+        margin-top: 10px;
+    }
+
+    .button-managezone {
+        display: flex;
+        margin-top: 20px;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
