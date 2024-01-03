@@ -45,21 +45,13 @@ const Sidemenu = () => {
               key="Dashboard"
               title="Dashboard"
               icon={<DashboardOutlined />}
-            >
-              <Menu.Item key="Dashboard">
-                <Link to="/Dashboard">Dashboard</Link>
-              </Menu.Item>
-            </SubMenu>
+            ></SubMenu>
 
             <SubMenu
               key="Service-Dashboard"
               title="Service-Dashboard"
               icon={<DashboardOutlined />}
-            >
-              <Menu.Item key="Service-Dashboard">
-                <Link to="/Reappoitment">Service-Dashboard</Link>
-              </Menu.Item>
-            </SubMenu>
+            ></SubMenu>
           </Menu>
 
           <Menu
@@ -72,20 +64,13 @@ const Sidemenu = () => {
               key="call-center"
               title="Customer Master"
               icon={<PhoneOutlined />}
-            >
-              <Menu.Item key="/call-center/option2">
-                <Link to="/Customerservice">Create Customer</Link>
-              </Menu.Item>
-              <Menu.Item key="/call-center/option1">
-                <Link to="/Searchdealercustomer">Search Customer</Link>
-              </Menu.Item>
-            </SubMenu>
+            ></SubMenu>
 
-            <SubMenu key="AMC" title="AMC" icon={<DashboardOutlined />}>
-              <Menu.Item key="Dashboard">
-                <Link to="/Amcdashboard">AMC</Link>
-              </Menu.Item>
-            </SubMenu>
+            <SubMenu
+              key="AMC"
+              title="AMC"
+              icon={<DashboardOutlined />}
+            ></SubMenu>
           </Menu>
 
           <Menu
@@ -98,14 +83,7 @@ const Sidemenu = () => {
               key="call-center"
               title="Call Center"
               icon={<PhoneOutlined />}
-            >
-              <Menu.Item key="/call-center/option1">
-                <Link to="/Logcomplaint">Log Complaint</Link>
-              </Menu.Item>
-              <Menu.Item key="/call-center/option2">
-                <Link to="/Bufferstockallocation">Buffer stock allocation</Link>
-              </Menu.Item>
-            </SubMenu>
+            ></SubMenu>
           </Menu>
           <Menu
             theme="dark"
@@ -117,14 +95,7 @@ const Sidemenu = () => {
               key="Service Center"
               title="Service Center"
               icon={<ToolOutlined />}
-            >
-              <Menu.Item key="Jobsheet">
-                <Link to="/Jobsheets">Jobsheet</Link>
-              </Menu.Item>
-              <Menu.Item key="/call-center/option2">
-                <Link to="/Bufferstockallocation">Buffer stock allocation</Link>
-              </Menu.Item>
-            </SubMenu>{" "}
+            ></SubMenu>{" "}
           </Menu>
 
           <Menu
@@ -139,18 +110,6 @@ const Sidemenu = () => {
                 title="Service Reports"
                 icon={<FileTextOutlined />}
               >
-                <Menu.Item key="/service-reports/open-call-detail">
-                  <Link to="/Opencalldetail"> Open Call Detail </Link>
-                </Menu.Item>
-                <Menu.Item key="/service-reports/call-logged-count">
-                  <Link to="/Callloggedcount"> Call Logged Count </Link>
-                </Menu.Item>
-                <Menu.Item key="/service-reports/pending-call-summary">
-                  <Link to="/Pendingcallsummary">Pending Call Summary</Link>
-                </Menu.Item>
-                <Menu.Item key="/service-reports/jobsheet-master-data">
-                  <Link to="/JobSheetmasterdata">Jobsheet Master Data</Link>
-                </Menu.Item>
                 <Menu.Item key="/service-reports/closed-call-detail">
                   Closed Call Detail
                 </Menu.Item>

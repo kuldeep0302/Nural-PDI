@@ -1,0 +1,75 @@
+.firstbox-Logcomplaint {
+  border-bottom: 1px solid #ccc;
+  padding-top: 20px;
+  padding-left: 25px;
+  height: 60px;
+}
+
+.first-text-Logcomplaint {
+  font-size: 20px;
+}
+
+.main-page-Logcalls {
+  background-color: #EFF3FE;
+  margin: 10px;
+}
+
+.buttonsfirst-Logcomplaint {
+  background-color: #EFF3FE;
+  margin: 10px;
+  display: flex;
+  gap: 2rem;
+}
+
+.button-Logcomplaint {
+  background-color: #D2F0F4;
+  padding: 10px 20px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button-Logcomplaint:hover {
+  background-color: #33499F;
+}
+
+.line-Logcomplaint {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.textinput-Logcomplaint {
+  width: 20%;
+}
+
+.buttons-Logcomplaint {
+  display: flex;
+  margin-top: 20px;
+  flex-direction: row-reverse;
+}
+
+.buttons-Logcomplaint-span {
+  margin: 5px;
+}
+
+@media screen and (max-width: 600px) {
+  .line-Logcomplaint {
+    flex-direction: column;
+    display: flex;
+  }
+
+  .textinput-Logcomplaint {
+    width: 80%;
+    align-self: center;
+    margin-top: 10px;
+  }
+
+  .buttons-Logcomplaint {
+    display: flex;
+    margin-top: 20px;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
