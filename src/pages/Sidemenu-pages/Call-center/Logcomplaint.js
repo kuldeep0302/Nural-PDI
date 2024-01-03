@@ -180,6 +180,114 @@ const Logcomplaint = () => {
           </span>
         </div>
       </div>
+
+      <div className="mainpage-callstatus">
+        <div className="firstbox-Logcomplaint">
+          <h4 className="first-text-Logcomplaint">View Pending Calls Status</h4>
+        </div>
+        <div className="line-Logcomplaint">
+          <div className="textinput-Logcomplaint">
+            <Autocomplete
+              onChange={(e, val) => {
+                setValue({ ...value, role: val.title });
+              }}
+              {...calltypeDefaultProps}
+              id="disable-close-on-select"
+              disableCloseOnSelect
+              renderInput={(params) => (
+                <TextField
+                  {...params}
+                  label="
+                  Category"
+                  variant="standard"
+                />
+              )}
+            />
+          </div>
+          <div className="textinput-Logcomplaint">
+            <Autocomplete
+              onChange={(e, val) => {
+                setValue({ ...value, role: val.title });
+              }}
+              {...calltypeDefaultProps}
+              id="disable-close-on-select"
+              disableCloseOnSelect
+              renderInput={(params) => (
+                <TextField
+                  {...params}
+                  label="
+                  Sub Category"
+                  variant="standard"
+                />
+              )}
+            />
+          </div>
+          <div className="textinput-Logcomplaint">
+            <Autocomplete
+              onChange={(e, val) => {
+                setValue({ ...value, role: val.title });
+              }}
+              {...calltypeDefaultProps}
+              id="disable-close-on-select"
+              disableCloseOnSelect
+              renderInput={(params) => (
+                <TextField
+                  {...params}
+                  label="
+                  Defect"
+                  variant="standard"
+                />
+              )}
+            />
+          </div>
+        </div>
+        <div className="line-Logcomplaint">
+          <div className="textinput-Logcomplaint">
+            <Autocomplete
+              onChange={(e, val) => {
+                setValue({ ...value, role: val.title });
+              }}
+              {...calltypeDefaultProps}
+              id="disable-close-on-select"
+              disableCloseOnSelect
+              renderInput={(params) => (
+                <TextField
+                  {...params}
+                  label="
+                  Status"
+                  variant="standard"
+                />
+              )}
+            />
+          </div>
+          
+        </div>
+
+        <div className="buttons-Logcomplaint">
+          <span className="buttons-Logcomplaint-span">
+            <Button
+              className="action-button"
+              size="large"
+              component="label"
+              variant="contained"
+              style={{ backgroundColor: "#32499F", color: "white" }}
+            >
+              Search
+            </Button>
+          </span>
+          <span className="buttons-Logcomplaint-span">
+            <Button
+              className="action-button"
+              size="large"
+              component="label"
+              variant="contained"
+              style={{ backgroundColor: "#32499F", color: "white" }}
+            >
+              Reset
+            </Button>
+          </span>
+        </div>
+      </div>
     </div>
   );
 };
