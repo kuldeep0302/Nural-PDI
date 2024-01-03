@@ -59,6 +59,30 @@
   margin: 5px;
 }
 
+.table-Logcalls {
+  margin: 10px;
+}
+
+
+table {
+  width: 100%;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #EFF3FE;
+}
+
+.cs-Logcalls {
+  border-bottom: 1px solid #ccc;
+}
+
+
 @media screen and (max-width: 600px) {
   .line-Logcomplaint {
     flex-direction: column;
@@ -76,5 +100,10 @@
     margin-top: 20px;
     flex-direction: row;
     justify-content: space-around;
+  }
+
+  .table-Logcalls {
+    width: 100%;
+    overflow: scroll;
   }
 }
