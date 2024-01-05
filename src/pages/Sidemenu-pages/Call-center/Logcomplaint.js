@@ -57,7 +57,7 @@ const Logcomplaint = () => {
               color: "white",
             }}
           >
-            Log Status
+             Status
           </button>
         </div>
       </div>

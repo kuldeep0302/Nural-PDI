@@ -1,0 +1,89 @@
+.setting-icones-Jobsheet {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    bottom: 28px;
+}
+
+.fistline-Jobsheet {
+    border-bottom: 1px solid #ccc;
+    padding-top: 20px;
+    padding-left: 25px;
+    height: 65px;
+}
+
+.value-container-Jobsheet {
+    display: flex;
+    margin: 10px;
+}
+
+.firstvaluebox-Jobsheet {
+    border-radius: 10px;
+    text-align: center;
+    margin: 10px;
+    width: 20%;
+    background-color: #32499F;
+    color: white;
+}
+
+.firstvaluebox-Jobsheet:hover {
+    background-color: #4566b8;
+    cursor: pointer;
+}
+
+.First-Jobsheet {
+    margin-top: 10px;
+}
+
+.Secound-Jobsheet {
+    margin-bottom: 10px;
+}
+
+.textinput-Jobsheet {
+    width: 20%;
+}
+
+.autowithbutton {
+    display: flex;
+    margin: 20px;
+}
+
+.table-Jobsheet {
+    margin: 10px;
+}
+
+table {
+    width: 100%;
+}
+
+th,
+td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #EFF3FE;
+}
+
+.cs-Jobsheet {
+    border-bottom: 1px solid #ccc;
+}
+
+
+@media screen and (max-width: 600px) {
+    .fistline-Jobsheet {
+        position: relative;
+        right: 13px;
+    }
+
+    .firstvaluebox-Jobsheet {
+        height: 20vh;
+    }
+
+    .table-Jobsheet {
+        width: 100%;
+        overflow: scroll;
+    }
+
+}

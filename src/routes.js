@@ -17,7 +17,7 @@ import Managecity from "./pages/Setting-pages/Manage-city/Managecity";
 import Managelocalitymain from "./pages/Setting-pages/Manage-Locality/Managelocalitymain";
 import Managelocality from "./pages/Setting-pages/Manage-Locality/Managelocality";
 import Bulkuploadlocality from "./pages/Setting-pages/Bulkupload-locality/Bulkuploadlocality";
-import Managetexmastermain from "./pages/Setting-pages/Manage-Tax-Master/Managetexmastermain"; 
+import Managetexmastermain from "./pages/Setting-pages/Manage-Tax-Master/Managetexmastermain";
 import Managetexmaster from "./pages/Setting-pages/Manage-Tax-Master/Managetexmaster";
 import TaxCategoryNamemain from "./pages/Setting-pages/Tax-Category-Name/TaxCategoryNamemain";
 import TaxCategoryName from "./pages/Setting-pages/Tax-Category-Name/TaxCategoryName";
@@ -48,6 +48,7 @@ import Usermaster from "./pages/Setting-pages/User-master/Usermaster";
 import Entitymappingmain from "./pages/Setting-pages/Entity-Mapping/Entitymappingmain";
 import Entitymapping from "./pages/Setting-pages/Entity-Mapping/Entitymapping";
 import Logcomplaint from "./pages/Sidemenu-pages/Call-center/Logcomplaint";
+import Jobsheet from "./pages/Sidemenu-pages/Jobsheet/Jobsheet";
 
 function RoutesApp() {
   return (
@@ -118,6 +119,7 @@ function RoutesApp() {
       <Route path="/Entitymappingmain" element={<Entitymappingmain />} />
       <Route path="/Entitymapping" element={<Entitymapping />} />
       <Route path="/Logcomplaint" element={<Logcomplaint />} />
+      <Route path="/Jobsheet" element={<Jobsheet />} />
     </Routes>
   );
 }
