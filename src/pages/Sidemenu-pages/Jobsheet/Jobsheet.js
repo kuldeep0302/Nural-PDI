@@ -132,7 +132,7 @@ const Jobsheet = () => {
           <tbody>
             <tr>
               <td>
-                <input type="checkbox" />
+                <input type="checkbox"/>
                 <img src="\photos\view.png" />
                 <img src="\photos\print.png" />
                 <img src="\photos\close.png" />
