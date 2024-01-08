@@ -21,9 +21,14 @@
     border-radius: 10px;
     text-align: center;
     margin: 10px;
-    width: 20%;
+    margin-top: 25px;
+    width: 17%;
+    height: 15vh;
     background-color: #32499F;
     color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
 }
 
 .firstvaluebox-Jobsheet:hover {

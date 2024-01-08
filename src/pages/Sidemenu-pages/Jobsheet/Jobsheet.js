@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import TextField from "@material-ui/core/TextField";
-import Autocomplete from "@mui/lab/Autocomplete";
+import { Autocomplete } from "@mui/material";
 import Button from "@mui/material/Button";
 import "./Jobsheet.css";
 
@@ -126,16 +126,16 @@ const Jobsheet = () => {
               <th>Info</th>
             </tr>
             <tr>
-              <td colspan="2">&nbsp;</td>
+              <td colSpan="2">&nbsp;</td>
             </tr>
           </thead>
           <tbody>
             <tr>
               <td>
-                <input type="checkbox"/>
-                <img src="\photos\view.png" />
-                <img src="\photos\print.png" />
-                <img src="\photos\close.png" />
+                <input type="checkbox" />
+                <img src="\photos\view.png" alt="View" />
+                <img src="\photos\print.png" alt="Print" />
+                <img src="\photos\close.png" alt="Close" />
               </td>
               <td>07/05/2021</td>
               <td>xxxxx</td>
@@ -147,7 +147,7 @@ const Jobsheet = () => {
               <td>xxxxx</td>
               <td>xxxxx</td>
               <td>
-                <img src="\photos\info.png" />
+                <img src="\photos\info.png" alt="Info" />
               </td>
             </tr>
           </tbody>
