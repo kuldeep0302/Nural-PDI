@@ -49,6 +49,7 @@ import Entitymappingmain from "./pages/Setting-pages/Entity-Mapping/Entitymappin
 import Entitymapping from "./pages/Setting-pages/Entity-Mapping/Entitymapping";
 import Logcomplaint from "./pages/Sidemenu-pages/Call-center/Logcomplaint";
 import Jobsheet from "./pages/Sidemenu-pages/Jobsheet/Jobsheet";
+import Updateinformation from "./pages/Sidemenu-pages/Update-infomation/Updateinformation";
 
 function RoutesApp() {
   return (
@@ -120,6 +121,7 @@ function RoutesApp() {
       <Route path="/Entitymapping" element={<Entitymapping />} />
       <Route path="/Logcomplaint" element={<Logcomplaint />} />
       <Route path="/Jobsheet" element={<Jobsheet />} />
+      <Route path="/Updateinformation" element={<Updateinformation />} />
     </Routes>
   );
 }
